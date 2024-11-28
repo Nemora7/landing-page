@@ -1,11 +1,9 @@
 ul {
-
     display: flex;
     justify-content: flex-end;
     background-color: #1F2937;
     height: 80px;
     gap: 12px;
-
 }
 
 .header_main {
@@ -15,26 +13,23 @@ ul {
     align-items: center;
     text-align: center;
     align-self: center;
+    font-family: Roboto;
 }
 
 #header_last {
-
-    margin-right: 200px;
+    margin-right: 250px;
 }
 
 #header_logo {
-
     color: white;
-    font-size: 20px;
+    font-size: 24px;
     list-style: none;
     font-weight: bold;
     align-self: center;
-    margin-right: 900px;
-
+    margin-right: 810px;
 }
 
 .second_section {
-
     display: flex;
     background-color: #1F2937;
     height: 500px;
@@ -43,9 +38,58 @@ ul {
 }
 
 .second_section_two {
+    height: 207px;
+    width: 670px;
+    align-self: center;
+    margin-right: 525px;
+    padding: 0px;
+}
 
-    border: 1px solid white;
-    width: 380px;
+
+h1 {
+    margin: 0px;
+    font-weight: 900;
+    font-size: 48px;
+    font-family: Roboto;
+}
+
+p {
+    margin-top: -2px;
+    color: white;
+    font-size: 19px;
+    font-family: Roboto;
+    filter: contrast(50%);
+}
+
+button {
+    background-color: #3882F6   ;
+    color: white;
+    width: 100px;
+    height: 35px;
+    font-weight: 900;
+    font-family: Roboto;
+    border-radius: 15px;
+}
+
+
+#container_photo {
+    height: 207px;
+    width: 670px;
+    align-self: center;
+    margin-left: -520px;
+} 
+
+.container_information {
+    height: 500px;  
+}
+
+#information_header {
+
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 50px;
 
 
 }
@@ -53,8 +97,62 @@ ul {
 
 
 
-p {
+.container_four_boxes {
 
-    color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.four_boxes {
+    width: 155px;
+    height: 270px; 
+}
+
+.boxes_specific {
+
+    height: 155px;
+    width: 155px;
+    border: 4px solid #3882F6;
+    border-radius: 20px; 
+
+}
+
+.box_text {
+    margin-top: 5px;
+    margin-left: 7px;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    filter: contrast(50%)
+}
+
+.grey_box {
+    height: 420px;
+    border: 1px solid black;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quote_container {
+
+    border: 1px solid red;
+
+
+}
+
+
+#quote {
+
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
 
 }
